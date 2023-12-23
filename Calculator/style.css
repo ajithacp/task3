@@ -1,0 +1,35 @@
+.calculator{
+    width: 400px;
+    height: 600px;
+    background: #141313;
+    margin-left: 407px;
+    padding-top: 27px;
+}
+#screen{
+    height: 58px;
+    margin-left: 75px;
+    width: 236px;
+    border-radius: 7px;
+    background-color: aqua;
+    color:rgb(255, 0, 212);
+}
+.button{
+    width: 60px;
+    height: 47px;
+    margin-top: 47px;
+    margin-left: 29px;
+}
+.buttondot{
+    width: 60px;
+    height: 47px;
+    margin-top: 47px;
+    margin-left: 29px;
+    font-weight: bold;
+}
+.clearbutton{
+    background:rgb(255, 0, 0);
+    width: 60px;
+    height: 47px;
+    margin-top: 47px;
+    margin-left: 29px;
+}

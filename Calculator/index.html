@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>calculator_project</title>
+     <link href="style.css" type="text/css" rel="stylesheet">
+     <script src="script.js"></script>
+   </head>
+   <body>
+    <div class="main-body">
+    <div class="calculator">
+        <div class="output">
+            <input type="text" id="screen">
+        </div>
+        <button onclick="clearDisplay()" class="button">CLEAR</button>
+        <div class="button-row">
+            <button onclick="buttonClick(7)" class="button">7</button>
+            <button onclick="buttonClick(8)" class="button">8</button>
+            <button onclick="buttonClick(9)" class="button">9</button>
+            <button onclick="buttonClick('/')" class="button">/</button>
+        </div>
+        <div class="button-row">
+            <button onclick="buttonClick(4)" class="button">4</button>
+            <button onclick="buttonClick(5)" class="button">5</button>
+            <button onclick="buttonClick(6)" class="button">6</button>
+            <button onclick="buttonClick('*')" class="button">X</button>
+        </div>
+        <div class="button-row">
+            <button onclick="buttonClick(1)" class="button">1</button>
+            <button onclick="buttonClick(2)" class="button">2</button>
+            <button onclick="buttonClick(3)" class="button">3</button>
+            <button onclick="buttonClick('-')" class="button">-</button>
+        </div>
+        <div class="button-row">
+            <button onclick="buttonClick('.')" class="buttondot">.</button>
+            <button onclick="buttonClick(0)" class="button">0</button>
+            <button onclick="buttonClick('+')" class="button">+</button>
+            <button onclick="equalClick()" class="button">=</button>
+        </div>
+
+    </div>
+    </div>
+   </body>
+</html>
